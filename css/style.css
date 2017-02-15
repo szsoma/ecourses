@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+
+:root {
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+body {
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+h2, h3, h4 {
+  padding-bottom: 0.6rem;
+}
+
+h1 {
+  font-weight: 600;
+  color: #000;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-weight: 400;
+  color: #000;
+  font-size: 1.6rem;
+}
+
+p {
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #848484;
+}
+
+h3 {
+  font-weight: 400;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.container {
+  margin-top: 6rem;
+}
+
+.head-content {
+  padding-bottom: 2rem;
+}
+
+/*   Navbar   */
+
+.nav-container {
+  margin-top: 2rem;
+}
+
+.navbar-brand {
+  padding-left: 0px;
+}
+
+.navbar {
+  margin-top: 1.2rem;
+}
+
+.nav li a{
+  font-weight: 300;
+  font-size: 1rem;
+  color: #848484;
+}
+
+.nav li a:hover {
+  color: #24cf5f;
+  background-color: transparent;
+}
+
+/*   Buttons   */
+
+.btn {
+  font-size: 1rem;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  transition: all .2s;
+  line-height: 1.1;
+}
+
+.btn-primary,
+.btn-primary:visited {
+  padding: 20px 40px;
+  color: #fff;
+  background-color: #24cf5f;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  padding: 20px 40px;
+  border: 2px solid #24cf5f;
+  color: #24cf5f;
+  background-color: #fff;
+}
+
+.btn-info {
+  padding: 18px 38px;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+}
+
+.btn-info:hover {
+  padding: 20px 40px;
+  color: #fff;
+  background-color: #24cf5f;
+  border: none;
+  border-radius: 50px;
+}
+
+/*   Banner   */
+
+.banner {
+  margin-bottom: 5rem;
+}
+
+.banner-btn {
+  margin-top: 30px;
+}
+
+.info, .primary {
+  margin: 10px 0;
+}
+
+/*   Features - Solutions  */
+
+.features {
+    margin-top: 5rem;
+}
+
+.features-block,
+.solutions-block{
+  margin: 2rem 0;
+}
+
+.solutions-block h4 {
+  font-weight: 600;
+  color: #ccc;
+  font-size: 1.2rem;
+  padding: 20px 20px;
+  background: url("../img/circle.png") no-repeat center;
+}
+
+.features-block p,
+.solutions-block p {
+  font-size: 1rem;
+}
+
+/*   Time-Limited Offer   */
+
+.time-limited {
+  background: url("../img/mt-0607-home-parallax1.jpg") no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+.time-limited h2{
+  font-weight: 600;
+  color: #fff;
+}
+
+.time-limited p {
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.time-limited-content {
+  margin: 8rem 0;
+}
+
+/*   You Are the Best  */
+
+.line {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #24cf5f;
+  float: right;
+}
+
+.you-are-the-best h2 {
+  margin: 0;
+}
+
+.you-are-the-best p {
+  font-size: 1rem;
+}
+
+/*   Quote  */
+
+.quote {
+  padding: 4rem 0;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.quote p {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
+.quote h2 {
+  width: 90%;
+  margin: auto;
+}
+
+/*   Showcase  */
+
+.showcase-img {
+  padding: 5px;
+}
+
+/*>    .showcase a:hover {
+      opacity: 0.5;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+*/
+
+/*   Numbers   */
+
+.numbers h4 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #24cf5f;
+}
+
+.numbers h5 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.numbers-cols {
+  padding-top: 1rem;
+}
+
+/*   Maps   */
+
+.maps-contact {
+  padding-top: 1rem;
+}
+
+.maps-contact a,
+.maps-contact h5 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.web a,
+.web a:visited {
+  color: #24cf5f;
+}
+
+.maps-contact a:hover,
+.maps-contact a:active {
+  color: #24cf5f;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.web a:hover {
+  color: #888;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/*   Team   */
+
+.team-members h4 {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  margin-bottom: 0rem;
+}
+
+.team-members p {
+  font-size: .8rem;
+}
+
+.team-members img {
+  border-radius: 50%;
+}
+
+/*   Your project   */
+
+.your-project {
+  width: 100%;
+
+}
+
+.macbook{
+  padding-left: 0;
+}
+
+.project-timeline p {
+  font-size: .8rem;
+}
+
+/*   Promote Yourself   */
+
+.promote img {
+  padding-bottom: 1rem;
+}
+
+.promote-ic {
+  padding-top: 1rem;
+}
+
+.promote-texts p {
+  font-size: .8rem;
+}
+
+
+
+/*   Prices   */
+
+.plans p {
+  font-size: .8rem;
+  color: #000;
+}
+
+.plans h4 {
+  color: #24cf5f;
+  font-size: 1.2rem;
+}
+
+.plans span {
+  font-size: 4rem;
+}
+
+.plans .btn-primary {
+  margin-top: .6rem;
+}
+
+/*   Carrier   */
+
+.carrier-content p {
+  font-size: 1rem;
+}
+
+.carrier-content a {
+  color: #24cf5f;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.carrier-content a:hover,
+.carrier-content a:active {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/*   Xiaomi   */
+
+.xiaomi-buttons {
+  margin-bottom: 1rem;
+}
+
+/*   FAQ   */
+
+.faq p {
+  font-size: 1rem;
+}
+
+/*   Footer   */
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+#fb,
+#g,
+#li,
+#yt,
+#tw {
+  width: 30px;
+  margin: 1rem;
+}
+
+.footer p{
+  font-size: .6rem;
+}
+
+
+/*   To Top   */
+
+#scroll {
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#24cf5f;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#fff
+}
+#scroll:hover {
+    background-color:#000;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+
+/*   Media Querries   */
+
+@media screen and (min-width:768px){
+
+  :root {
+    font-size: 20px;
+    transition: all 0.3s;
+  }
+
+  .fejlec-gomb {
+    margin-top: 1rem;
+  }
+
+  .time-limited p {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+
+  .you-are-the-best p {
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+
+  .quote h2 {
+    width: 60%;
+    margin: auto;
+  }
+
+  .project-timeline {
+    padding-left: 3rem;
+  }
+
+}
